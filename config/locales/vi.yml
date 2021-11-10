@@ -6,7 +6,6 @@ vi:
       home: "Trang Chủ"
       help: "Trợ Giúp"
       login: "Đăng Nhập"
-      sample_app: "Sample App"
       log_out: "Đăng xuất"
       sample_app: "Sample App"
       user: "Người dùng"
@@ -65,8 +64,14 @@ vi:
     success: "Chào mứng đến với Sample App!"
     danger: "Không tìm thấy tài khoản"
     invalid: "Email hoặc mật khẩu không chính xác"
+    login:
+        invalid_password: "Mật khẩu không đúng"
+        successed: "Đăng nhập thành công"
+    logout: "Đăng xuất thành công"
   sessions:
     new:
       log_in: "Đăng nhập"
       new_user?: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
+
+      remember_me: "Nhớ đăng nhập"

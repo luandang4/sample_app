@@ -6,7 +6,6 @@ en:
       home: "Home"
       help: "Help"
       login: "Log In"
-      sample_app: "Sample App"
       log_out: "Log out"
       sample_app: "Sample App"
       user: "User"
@@ -63,8 +62,13 @@ en:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
     invalid: "Invalid email/password combination"
+    login:
+        invalid_password: "Wrong password"
+        successed: "Log in successed"
+    logout: "Log out successed"
   sessions:
     new:
       log_in: "Log in"
       new_user?: "New user?"
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me"
