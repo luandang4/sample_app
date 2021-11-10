@@ -1,33 +1,98 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layouts:
+    header:
+      vietnamese: "VI"
+      english: "EN"
+      home: "Home"
+      help: "Help"
+      log_in: "Log In"
+      log_out: "Log out"
+      sample_app: "Sample App"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    application:
+      greeting: "Welcome to the Sample App"
+      content: "This is the home page for the %{link} sample application."
+      tutorial: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+  static_page:
+    home:
+      title: "Home"
+      content: "This is the home page for the %{link} sample application."
+      tutorial: "Ruby on Rails Tutorial"
+    help:
+      title: "Help"
+      content: "Get help on the Ruby on Rails Tutorial at the %{link_page} To get help on this sample app, see the <em>%{link_book}</em> book."
+      rails_page: "Rails Tutorial help page"
+      tutorial: "Ruby on Rails Tutorial"
+    about:
+      title: "About"
+      the: "The"
+      tutorial: "Ruby on Rails Tutorial"
+      part_of: ", part of the"
+      learn_enough: "Learn Enough"
+      family: "family of tutorials, is a"
+      book: "book"
+      and: " and"
+      screencast: "screencast series"
+      to_teach: "to teach web development with"
+      rails: "Ruby on Rails"
+      content: "This is the sample app for the tutorial."
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      title: "Sign Up"
+      create_my_account: "Create my account"
+    edit:
+      title: "Edit user"
+      header: "Update your profile"
+      save_change: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    user:
+      delete: "Delete"
+      alert_confirm: "You sure?"
+  shared:
+    error_messages:
+      contains_error: "The form contains"
+      error: "error"
+  flash:
+    success: "Welcome to the Sample App!"
+    danger: "Don't find account"
+    invalid: "Invalid email/password combination"
+    profile_updated: "Profile updated"
+    login_warning: "Please log in."
+    user_deleted: "User deleted"
+    delete_fail: "Delete fail!"
+    info: "Please check your email to activate your account."
+    success_activation: "Account activated!"
+    danger_activation: "Invalid activation link"
+    message: "Account not activated. Check your email for the activation link."
+    login:
+        invalid_password: "Wrong password"
+        successed: "Log in successed"
+    logout: "Log out successed"
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user?: "New user?"
+      sign_up_now: "Sign up now!"
+      remember_me: "Remember me"
+  mailers:
+    user_mailer:
+      greeting: "Hi"
+      subject: "Account activation"
+  active_account:
+    active_text: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activate"
