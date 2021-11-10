@@ -1,0 +1,117 @@
+vi:
+  layouts:
+    header:
+      vietnamese: "VI"
+      english: "EN"
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      log_in: "Đăng Nhập"
+      log_out: "Đăng xuất"
+      sample_app: "Sample App"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+    footer:
+      about: "Giới Thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    application:
+      greeting: "Chào mừng đến với Ứng dụng mẫu"
+      content: "Đây là trang chủ của ứng dụng mẫu %{link}."
+      tutorial: "hướng dẫn Ruby on Rails"
+      signup: "Đăng ký ngay!"
+  static_page:
+    home:
+      title: "Trang chủ"
+      content: "Đây là trang chủ của ứng dụng mẫu %{link}"
+      tutorial: "hướng dẫn Ruby on Rails"
+    help:
+      title: "Trợ giúp"
+      content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang %{link_page} để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách <em>%{link_book}</em>."
+      rails_page: "trợ giúp về Rails Tutorial"
+      tutorial: "hướng dẫn Ruby on Rails"
+    about:
+      title: "Giới thiệu"
+      the: ""
+      tutorial: "Hướng dẫn Ruby on Rails"
+      part_of: ", một phần của"
+      learn_enough: "Learn Enough"
+      family: "family of tutorials, là một"
+      book: "quyển sách"
+      and: "và"
+      screencast: "loạt video truyền hình"
+      to_teach: "để dạy phát triển web với"
+      rails: "Ruby on Rails"
+      content: "Đây là ứng dụng mẫu cho hướng dẫn."
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      title: "Đăng Ký"
+      create_my_account: "Tạo tài khoản"
+    edit:
+      title: "Sửa người dùng"
+      header: "Cập nhật hồ sơ của bạn"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      alert_confirm: "Bạn chắc chắn?"
+  shared:
+    error_messages:
+      contains_error: "Biểu mẫu chứa"
+      error: "lỗi"
+  flash:
+    success: "Chào mứng đến với Sample App!"
+    danger: "Không tìm thấy tài khoản"
+    invalid: "Email hoặc mật khẩu không chính xác"
+    profile_updated: "Hồ sơ đã được cập nhật"
+    login_warning: "Hãy đăng nhập."
+    user_deleted: "Đã xóa người dùng"
+    delete_fail: "Xóa không thành công!"
+    info: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    success_activation: "Tài khoản đã được kích hoạt!"
+    danger_activation: "Liên kết kích hoạt không hợp lệ"
+    message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    email_reset: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    not_found_email: "Không tìm thấy địa chỉ email"
+    password_reset_expired: "Đặt lại mật khẩu đã hết hạn."
+    reset_password_successed: "Mật khẩu đã được đặt lại."
+    invalid_link: "Liên kết không hợp lệ"
+    login:
+      invalid_activate: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+      invalid_password: "Mật khẩu không đúng"
+      successed: "Đăng nhập thành công"
+    logout: "Đăng xuất thành công"
+  errors:
+    messages:
+      blank: "Không được để trống"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user?: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+      remember_me: "Nhớ đăng nhập"
+  mailers:
+    user_mailer:
+      greeting: "Xin chào"
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+       subject: "Đặt lại mật khẩu"
+       reset_pasword: "Đặt lại mật khẩu"
+       to_link: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+       time_out_link: "Liên kết này sẽ hết hạn sau hai giờ."
+       skip_email: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+       submit: "Cập nhật mật khẩu"
+  active_account:
+    active_text: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    active: "Kích hoạt"
+  pages:
+    foget_password: "Quên mật khẩu"
+    submit: "Gửi"
