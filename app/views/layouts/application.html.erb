@@ -11,15 +11,13 @@
 </head>
 <body>
   <%= render "layouts/header" %>
-  <div class="center jumbotron">
-    <h1><%= t ".greeting" %></h1>
-    <h2>
-      <%= t(".content", link: link_to(t(".tutorial"), "http://www.railstutorial.org/")).html_safe %>
-    </h2>
-    <%= link_to t(".signup"), "#", class: "btn btn-lg btn-primary" %>
-  </div>
   <div class="container">
+    <% flash.each do |message_type, message| %>
+    <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+    <% end %>
     <%= yield %>
+    <%= render "layouts/footer" %>
+    <%= debug(params) if Rails.env.development? %>
   </div>
 </body>
 </html>

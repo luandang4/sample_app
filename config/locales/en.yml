@@ -6,8 +6,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log In"
-      about: "About"
       sample_app: "Sample App"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
     application:
       greeting: "Welcome to the Sample App"
       content: "This is the home page for the %{link} sample application."
@@ -39,3 +42,17 @@ en:
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      sign_up: "Sign Up"
+      create_my_account: "Create my account"
+      confirmation: "Confirmation"
+  shared:
+    error_messages:
+      contains_error: "The form contains"
+      error: "error"
+  flash:
+    success: "Welcome to the Sample App!"
+    danger: "Don't find account"
