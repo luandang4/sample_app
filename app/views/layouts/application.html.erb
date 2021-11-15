@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SampleApp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title><%= full_title yield :title %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+  <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+</head>
+<body>
+  <%= render "layouts/header" %>
+  <div class="center jumbotron">
+    <h1><%= t ".greeting" %></h1>
+    <h2>
+      <%= t(".content", link: link_to(t(".tutorial"), "http://www.railstutorial.org/")).html_safe %>
+    </h2>
+    <%= link_to t(".signup"), "#", class: "btn btn-lg btn-primary" %>
+  </div>
+  <div class="container">
     <%= yield %>
-  </body>
+  </div>
+</body>
 </html>
