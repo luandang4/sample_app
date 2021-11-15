@@ -1,0 +1,41 @@
+vi:
+  layouts:
+    header:
+      vietnamese: "VI"
+      english: "EN"
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      login: "Đăng Nhập"
+      about: "Giới Thiệu"
+      sample_app: "Sample App"
+    application:
+      greeting: "Chào mừng đến với Ứng dụng mẫu"
+      content: "Đây là trang chủ của ứng dụng mẫu %{link}."
+      tutorial: "hướng dẫn Ruby on Rails"
+      signup: "Đăng ký ngay!"
+  static_page:
+    home:
+      title: "Trang chủ"
+      content: "Đây là trang chủ của ứng dụng mẫu %{link}"
+      tutorial: "hướng dẫn Ruby on Rails"
+    help:
+      title: "Trợ giúp"
+      content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang %{link_page} để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách <em>%{link_book}</em>."
+      rails_page: "trợ giúp về Rails Tutorial"
+      tutorial: "hướng dẫn Ruby on Rails"
+    about:
+      title: "Giới thiệu"
+      the: ""
+      tutorial: "Hướng dẫn Ruby on Rails"
+      part_of: ", một phần của"
+      learn_enough: "Learn Enough"
+      family: "family of tutorials, là một"
+      book: "quyển sách"
+      and: "và"
+      screencast: "loạt video truyền hình"
+      to_teach: "để dạy phát triển web với"
+      rails: "Ruby on Rails"
+      content: "Đây là ứng dụng mẫu cho hướng dẫn."
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
