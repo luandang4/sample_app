@@ -2,3 +2,5 @@ length:
   digit_150: 150
   digit_255: 255
   digit_6: 6
+size:
+  digit_80: 80

@@ -6,8 +6,11 @@ vi:
       home: "Trang Chủ"
       help: "Trợ Giúp"
       login: "Đăng Nhập"
-      about: "Giới Thiệu"
       sample_app: "Sample App"
+    footer:
+      about: "Giới Thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
     application:
       greeting: "Chào mừng đến với Ứng dụng mẫu"
       content: "Đây là trang chủ của ứng dụng mẫu %{link}."
@@ -39,3 +42,19 @@ vi:
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      edit: "Sửa"
+      back: "Quay lại"
+      sign_up: "Đăng Ký"
+      create_my_account: "Tạo tài khoản"
+      confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_messages:
+      contains_error: "Biểu mẫu chứa"
+      error: "lỗi"
+  flash:
+    success: "Chào mứng đến với Sample App!"
+    danger: "Không tìm thấy tài khoản"
