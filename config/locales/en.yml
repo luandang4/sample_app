@@ -5,7 +5,7 @@ en:
       english: "EN"
       home: "Home"
       help: "Help"
-      login: "Log In"
+      log_in: "Log In"
       log_out: "Log out"
       sample_app: "Sample App"
       user: "User"
@@ -51,9 +51,18 @@ en:
     new:
       name: "Name"
       email: "Email"
-      sign_up: "Sign Up"
+      title: "Sign Up"
       create_my_account: "Create my account"
-      confirmation: "Confirmation"
+    edit:
+      title: "Edit user"
+      header: "Update your profile"
+      save_change: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    user:
+      delete: "Delete"
+      alert_confirm: "You sure?"
   shared:
     error_messages:
       contains_error: "The form contains"
@@ -62,6 +71,10 @@ en:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
     invalid: "Invalid email/password combination"
+    profile_updated: "Profile updated"
+    login_warning: "Please log in."
+    user_deleted: "User deleted"
+    delete_fail: "Delete fail!"
     login:
         invalid_password: "Wrong password"
         successed: "Log in successed"

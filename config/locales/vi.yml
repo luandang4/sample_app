@@ -5,7 +5,7 @@ vi:
       english: "EN"
       home: "Trang Chủ"
       help: "Trợ Giúp"
-      login: "Đăng Nhập"
+      log_in: "Đăng Nhập"
       log_out: "Đăng xuất"
       sample_app: "Sample App"
       user: "Người dùng"
@@ -51,11 +51,18 @@ vi:
     new:
       name: "Tên"
       email: "Email"
-      edit: "Sửa"
-      back: "Quay lại"
-      sign_up: "Đăng Ký"
+      title: "Đăng Ký"
       create_my_account: "Tạo tài khoản"
-      confirmation: "Xác nhận mật khẩu"
+    edit:
+      title: "Sửa người dùng"
+      header: "Cập nhật hồ sơ của bạn"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      alert_confirm: "Bạn chắc chắn?"
   shared:
     error_messages:
       contains_error: "Biểu mẫu chứa"
@@ -64,6 +71,10 @@ vi:
     success: "Chào mứng đến với Sample App!"
     danger: "Không tìm thấy tài khoản"
     invalid: "Email hoặc mật khẩu không chính xác"
+    profile_updated: "Hồ sơ đã được cập nhật"
+    login_warning: "Hãy đăng nhập."
+    user_deleted: "Đã xóa người dùng"
+    delete_fail: "Xóa không thành công!"
     login:
         invalid_password: "Mật khẩu không đúng"
         successed: "Đăng nhập thành công"
