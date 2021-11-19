@@ -7,6 +7,12 @@ vi:
       help: "Trợ Giúp"
       login: "Đăng Nhập"
       sample_app: "Sample App"
+      log_out: "Đăng xuất"
+      sample_app: "Sample App"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
     footer:
       about: "Giới Thiệu"
       contact: "Liên hệ"
@@ -58,3 +64,9 @@ vi:
   flash:
     success: "Chào mứng đến với Sample App!"
     danger: "Không tìm thấy tài khoản"
+    invalid: "Email hoặc mật khẩu không chính xác"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user?: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"

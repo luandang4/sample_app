@@ -7,6 +7,12 @@ en:
       help: "Help"
       login: "Log In"
       sample_app: "Sample App"
+      log_out: "Log out"
+      sample_app: "Sample App"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
     footer:
       about: "About"
       contact: "Contact"
@@ -56,3 +62,9 @@ en:
   flash:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
+    invalid: "Invalid email/password combination"
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user?: "New user?"
+      sign_up_now: "Sign up now!"
