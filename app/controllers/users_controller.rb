@@ -12,6 +12,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.paginate(page: params[:page])
     return if @user.present?
 
     flash[:danger] = t "flash.danger"
@@ -56,14 +57,6 @@ class UsersController < ApplicationController
   def user_params
     params
       .require(:user).permit :name, :email, :password, :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "flash.login_warning"
-    redirect_to login_url
   end
 
   def correct_user

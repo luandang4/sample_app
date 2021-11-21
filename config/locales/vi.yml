@@ -26,6 +26,7 @@ vi:
       title: "Trang chủ"
       content: "Đây là trang chủ của ứng dụng mẫu %{link}"
       tutorial: "hướng dẫn Ruby on Rails"
+      micro_feed: "Nội dung mới"
     help:
       title: "Trợ giúp"
       content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang %{link_page} để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách <em>%{link_book}</em>."
@@ -60,6 +61,8 @@ vi:
       change: "Thay đổi"
     index:
       title: "Tất cả người dùng"
+    show:
+      micropost: "Bài đăng: %{count}"
     user:
       delete: "Xóa"
       alert_confirm: "Bạn chắc chắn?"
@@ -67,6 +70,12 @@ vi:
     error_messages:
       contains_error: "Biểu mẫu chứa"
       error: "lỗi"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micro: "bài đăng"
+    micropost_form:
+      content_pla: "Soạn bài đăng mới..."
+      submit: "Đăng"
   flash:
     success: "Chào mứng đến với Sample App!"
     danger: "Không tìm thấy tài khoản"
@@ -84,6 +93,9 @@ vi:
     password_reset_expired: "Đặt lại mật khẩu đã hết hạn."
     reset_password_successed: "Mật khẩu đã được đặt lại."
     invalid_link: "Liên kết không hợp lệ"
+    micropost_created: "Đã tạo bài đăng!"
+    micropost_delete: "Xóa bài đăng"
+    micropost_invalid: "Bài đăng không hợp lệ"
     login:
       invalid_activate: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
       invalid_password: "Mật khẩu không đúng"
@@ -115,3 +127,7 @@ vi:
   pages:
     foget_password: "Quên mật khẩu"
     submit: "Gửi"
+  microposts:
+    micropost:
+      post_at: "Đăng %{timestamp} trước."
+      delete: "Xóa"

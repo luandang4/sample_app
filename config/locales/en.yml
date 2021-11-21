@@ -26,6 +26,7 @@ en:
       title: "Home"
       content: "This is the home page for the %{link} sample application."
       tutorial: "Ruby on Rails Tutorial"
+      micro_feed: "Micropost Feed"
     help:
       title: "Help"
       content: "Get help on the Ruby on Rails Tutorial at the %{link_page} To get help on this sample app, see the <em>%{link_book}</em> book."
@@ -60,6 +61,8 @@ en:
       change: "Change"
     index:
       title: "All users"
+    show:
+      micropost: "Micropost: %{count}"
     user:
       delete: "Delete"
       alert_confirm: "You sure?"
@@ -67,6 +70,12 @@ en:
     error_messages:
       contains_error: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micro: "micropost"
+    micropost_form:
+      content_pla: "Compose new micropost..."
+      submit: "Post"
   flash:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
@@ -84,6 +93,9 @@ en:
     password_reset_expired: "Password reset has expired."
     reset_password_successed: "Password has been reset."
     invalid_link: "Invalid link"
+    micropost_created: "Micropost created!"
+    micropost_delete: "Micropost deleted"
+    micropost_invalid: "Micropost invalid"
     login:
       invalid_activate: "Account not activated. Please check your email to activate your account."
       invalid_password: "Wrong password"
@@ -115,3 +127,7 @@ en:
   pages:
     foget_password: "Forgot password"
     submit: "Submit"
+  microposts:
+    micropost:
+      post_at: "Post %{timestamp} ago."
+      delete: "Delete"
