@@ -76,6 +76,8 @@ vi:
     micropost_form:
       content_pla: "Soạn bài đăng mới..."
       submit: "Đăng"
+    follow: "Theo dõi"
+    un_follow: "Bỏ theo dõi"
   flash:
     success: "Chào mứng đến với Sample App!"
     danger: "Không tìm thấy tài khoản"
@@ -96,6 +98,8 @@ vi:
     micropost_created: "Đã tạo bài đăng!"
     micropost_delete: "Xóa bài đăng"
     micropost_invalid: "Bài đăng không hợp lệ"
+    folow_title: "Đang theo dõi"
+    folower_title: "Người theo dõi"
     login:
       invalid_activate: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
       invalid_password: "Mật khẩu không đúng"

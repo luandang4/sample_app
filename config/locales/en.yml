@@ -72,10 +72,12 @@ en:
       error: "error"
     user_info:
       view_profile: "View my profile"
-      micro: "micropost"
+      micro: "Microposts"
     micropost_form:
       content_pla: "Compose new micropost..."
       submit: "Post"
+    follow: "Follow"
+    un_follow: "Unfollow"
   flash:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
@@ -96,6 +98,8 @@ en:
     micropost_created: "Micropost created!"
     micropost_delete: "Micropost deleted"
     micropost_invalid: "Micropost invalid"
+    follow_title: "Following"
+    follower_title: "Followers"
     login:
       invalid_activate: "Account not activated. Please check your email to activate your account."
       invalid_password: "Wrong password"
